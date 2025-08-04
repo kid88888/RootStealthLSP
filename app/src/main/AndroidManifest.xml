@@ -1,8 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rootstealth">
-
     <application
         android:label="RootStealthLSP"
-        android:icon="@mipmap/ic_launcher"
         android:hasCode="false" />
 </manifest>
