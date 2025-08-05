@@ -1,4 +1,4 @@
-package com.example.rootstealth;
+package com.kaide.rootstealth;
 
 import android.util.Log;
 
