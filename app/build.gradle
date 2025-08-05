@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.rootstealth'
+    namespace 'com.kaide.rootstealth'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.rootstealth" // 必须：定义包名
+        applicationId "com.kaide.rootstealth" // 必须：定义包名
         minSdk 21
         targetSdk 34
         versionCode 1 // 必须：否则 LSPosed 不识别
