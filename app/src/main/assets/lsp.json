@@ -1,0 +1,8 @@
+{
+  "name": "RootStealthLSP",
+  "description": "Bypasses root and system path checks for banking apps.",
+  "version": "1.0",
+  "main": "com.kaide.rootstealth.RootStealth",
+  "minApi": 21,
+  "targetApi": 34
+}
