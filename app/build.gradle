@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.application'
 }
 
 android {
@@ -7,8 +7,11 @@ android {
     compileSdk 34
 
     defaultConfig {
+        applicationId "com.example.rootstealth" // 必须：定义包名
         minSdk 21
         targetSdk 34
+        versionCode 1 // 必须：否则 LSPosed 不识别
+        versionName "1.0" // 可选：用于显示
     }
 
     buildTypes {
@@ -20,6 +23,12 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
     }
 }
 
