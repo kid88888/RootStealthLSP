@@ -1,6 +1,23 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kaide.rootstealth">
 
     <application
         android:label="RootStealthLSP"
-        android:hasCode="true" />
+        android:hasCode="true">
+
+        <!-- ✅ 添加这些 Xposed 元数据 -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="93" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Bypasses root detection for banking apps." />
+
+    </application>
+
 </manifest>
