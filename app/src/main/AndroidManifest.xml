@@ -2,5 +2,5 @@
     package="com.example.rootstealth">
     <application
         android:label="RootStealthLSP"
-        android:hasCode="false" />
+        android:hasCode="true" />
 </manifest>
